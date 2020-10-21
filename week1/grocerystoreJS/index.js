@@ -7,4 +7,4 @@ var shopper = {
         return this.items + " " + this.price + " " + this.isAlive + " " + this.groceryCart[2];
 }
 };
-console.log(shopper.items + " " + shopper.price + " " + shopper.isAlive + " "  + shopper.groceryCart[2])
+console.log(shopper.items + " ," + shopper.price + " ," + shopper.isAlive + " ,"  + shopper.groceryCart[2])
