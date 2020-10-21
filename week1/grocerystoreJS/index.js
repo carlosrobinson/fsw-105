@@ -4,7 +4,7 @@
     isAlive : true,
     groceryCart: ["Meat", "Dairy", "Fruit"],
     showCart: function() {
-        return this.items + " ," + this.price + " ," + this.isAlive + " ," + this.groceryCart[2];
+        return this.items + " " + this.price + " " + this.isAlive + " " + this.groceryCart[2];
 }
 };
 <<<<<<< HEAD
