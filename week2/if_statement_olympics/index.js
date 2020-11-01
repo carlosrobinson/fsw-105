@@ -8,7 +8,7 @@ if ( "cat".length == 3) {
 }
     
 if ("cat" != "dog") {
-    console.log("not the same")
+    console.log(" not the same")
 }
 
 //Bronze Medal//

@@ -1,19 +1,34 @@
 var lightSwitch = [
-    [2, 5, 435, 4, 3],
+    [2, 5, 435, 4, 3], 
     [1, 1, 1, 1, 3],
     [9, 3, 4, 2]
 ]
 
-for (let i = 0; i < lightSwitch.length;i++) {
-    var flipTheSwitch = lightSwitch[i];
-  for(j = 0; j < lightSwitch[i].length; j++){
-       // var count = lightSwitch[i]
-     if( lightSwitch[i] % 2 === 0) {
-        console.log(flipTheSwitch, "lights off")
-    } else {
-        console.log(flipTheSwitch, "lights on")
-            
-      }
-       // console.log(flipTheSwitch)         
-    }
+
+
+var sum = lightSwitch[0].reduce((accumulator, currentValue) => {
+    return accumulator + currentValue
+}, 0 )
+if(sum % 2 === 0) {
+    console.log(lightSwitch[0], "// lights Off")
+} else {
+    console.log(lightSwitch[0], "// lights On")
+}
+
+var sum = lightSwitch[1].reduce((accumulator, currentValue) => {
+    return accumulator + currentValue
+}, 0 )
+if(sum % 2 === 0) {
+    console.log(lightSwitch[1], "// lights Off")
+} else {
+    console.log(lightSwitch[1], "// lights On")
+}
+
+var sum = lightSwitch[2].reduce((accumulator, currentValue) => {
+    return accumulator + currentValue
+}, 0 )
+if(sum % 2 === 0) {
+    console.log(lightSwitch[2], "// lights Off")
+} else {
+    console.log(lightSwitch[2], "// lights On")
 }
