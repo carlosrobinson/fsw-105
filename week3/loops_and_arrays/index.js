@@ -28,7 +28,7 @@ for(let i = 0; i < movieProspects.length;i++) {
     var personName = movieProspects[i].name; 
     var personGender = movieProspects[i].gender;
     if(personAge >= 18){
-        console.log(personName + " " + "is old enough ")
+        console.log( "is old enough ")
     } else if(personAge < 18){
         console.log("not old enough")
     }

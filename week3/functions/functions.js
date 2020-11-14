@@ -46,5 +46,5 @@ function checkNewString(myString) {
     }
 }
 
-var res = checkNewString("return the first half of the string")
+var res = checkNewString("Samson")
 console.log(res);
