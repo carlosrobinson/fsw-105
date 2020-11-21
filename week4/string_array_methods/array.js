@@ -38,7 +38,7 @@ var removeItems1 = newFoodArr.splice(4, 2)
 
 //Reverse your array.
 var reverseArr = newFoodArr.reverse(removeItems1)
-//console.log(reverseArr)
+console.log(reverseArr)
 
 //Turn the array into a string and return it.
 //var splitArr = reverseArr.split("");
