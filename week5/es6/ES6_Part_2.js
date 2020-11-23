@@ -67,3 +67,76 @@ console.log(mapVegetables(carrots))
 
 //  }
 // console.log(filterForFriendly(people))
+
+//4) Re-write the following functions to be arrow functions:
+
+const doMathSum = (a , b)  => a + b
+var produceProduct = (a, b) =>  a * b
+console.log(doMathSum(15, 25))
+console.log(produceProduct(8, 9))
+
+//Write a printString function that takes firstName, lastName, and age as parameters and returns a string like the following:
+ 
+function printString(firstName = "kat" ,lastName = "Stark"  ,age = 40) {
+    return "Hi" + " " + firstName + " " + lastName + " " + "how does it feel to be" + " " + age 
+    
+}
+console.log(printString("John", "Doe", 100))
+
+//Use template literals to build the string from #5
+function printString(firstName = "kat" ,lastName = "Stark"  ,age = 40) {
+    return (`Hi ${firstName} ${lastName} how does it feel to be ${age}`)  
+}
+console.log(printString("John", "Doe", 100 ))
+
+
+//Use the shorthand syntax to make the following filter take up one line. Copy and paste the array to test it.
+
+const animals = [
+   {
+    type: "dog",
+    name: "theodore"
+   },
+   {
+       type: "cat",
+       name: "whiskers"
+   },
+   {
+       type: "pig",
+       name: "piglette"
+   },
+   {
+       type: "dog",
+       name: "sparky"
+   }
+];
+
+function filterForDogs(arr) {return arr.filter(animal => animal.type === "dog")
+}
+console.log(filterForDogs([
+    {
+     type: "dog",
+     name: "theodore"
+    },
+    {
+        type: "cat",
+        name: "whiskers"
+    },
+    {
+        type: "pig",
+        name: "piglette"
+    },
+    {
+        type: "dog",
+        name: "sparky"
+    }
+ ]))
+
+ //Using template literals, write a function that takes location and name parameters and outputs a message formatted like this:
+
+ const passenger = {
+     name1: "Janice",
+     location:"Hawaii" 
+ }
+ const {name1, location} = passenger
+ console.log(`${"Hi" + " " + name1 + "! " + "Welcome to" + " " + location + "." + " I hope you enjoy your stay. Please ask the president of" + " " + location + " " + "if you need anything."}`)
