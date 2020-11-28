@@ -43,30 +43,30 @@ console.log(mapVegetables(carrots))
 
 //  /*Re-write this .filter() using an arrow function: */
 
-//  const people = [
-//      {
-//          name: "Princess Peach ",
-//          friendly: false
-//      }, 
-//      {
-//          name: "Luigi",
-//          friendly: true
-//      },
-//      {
-//          name: "Mario",
-//          friendly: true
-//      },
-//      {
-//          name: "Bowser",
-//          friendly: false
-//      }
-//  ]
+ const people = [
+     {
+         name: "Princess Peach ",
+         friendly: false
+     }, 
+     {
+         name: "Luigi",
+         friendly: true
+     },
+     {
+         name: "Mario",
+         friendly: true
+     },
+     {
+         name: "Bowser",
+         friendly: false
+     }
+ ]
 
-//  function filterForFriendly(arr) {
-//       return arr.filter((person) => person.friendly)
+ function filterForFriendly(arr) {
+      return arr.filter((person) => person.friendly)
 
-//  }
-// console.log(filterForFriendly(people))
+ }
+console.log(filterForFriendly(people))
 
 //4) Re-write the following functions to be arrow functions:
 
